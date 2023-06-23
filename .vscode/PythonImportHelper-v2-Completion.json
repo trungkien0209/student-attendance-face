@@ -1,0 +1,55 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "mysql.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql.connector",
+        "description": "mysql.connector",
+        "detail": "mysql.connector",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "flask.server",
+        "description": "flask.server",
+        "peekOfCode": "def login():\n    msg =''\n    if request.method == 'POST':",
+        "detail": "flask.server",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "kind": 5,
+        "importPath": "flask.server",
+        "description": "flask.server",
+        "peekOfCode": "connection = mysql.connector.connect(host='localhost', port = '3306', database='datn', user='root', password='')\ncursor = connection.cursor()\napp = Flask(__name__)\n@app.route('/login', methods = ['GET', 'POST'])\ndef login():\n    msg =''\n    if request.method == 'POST':",
+        "detail": "flask.server",
+        "documentation": {}
+    },
+    {
+        "label": "cursor",
+        "kind": 5,
+        "importPath": "flask.server",
+        "description": "flask.server",
+        "peekOfCode": "cursor = connection.cursor()\napp = Flask(__name__)\n@app.route('/login', methods = ['GET', 'POST'])\ndef login():\n    msg =''\n    if request.method == 'POST':",
+        "detail": "flask.server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "flask.server",
+        "description": "flask.server",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/login', methods = ['GET', 'POST'])\ndef login():\n    msg =''\n    if request.method == 'POST':",
+        "detail": "flask.server",
+        "documentation": {}
+    }
+]

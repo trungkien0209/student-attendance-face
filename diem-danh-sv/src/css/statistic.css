@@ -1,0 +1,42 @@
+.statisticheader{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: 4px solid black;
+}
+.statisticheader ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.statisticheader ul li{
+    margin-right: 40px;
+    margin-top: 25px;
+}
+.statisticheader ul li h3{
+    color: #009642;
+    font-weight: bold;
+}
+.statisticheader ul li p{
+    font-weight: bold;
+    font-size: 16px;
+}
+.statisticheader ul li p:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.statisticcontent{
+    width: 100%;
+    background-color: #ffffff;
+}
+.statisticcontent input{
+    width: 250px;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.statisticcontent td img{
+    width: 28px;
+    height: 28px;
+}

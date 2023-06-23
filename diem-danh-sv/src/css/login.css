@@ -1,0 +1,50 @@
+body {
+  background-image: linear-gradient(#009642, #00B550) !important;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+body, html, .App, #root, .login-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.login-wrapper {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.login-inner {
+  width: 480px;
+  height: 360px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+.login-inner img{
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  margin-top: -10px;
+  margin-left: -205px;
+}
+.login-inner h3{
+  margin-bottom: 30px;
+  margin-left: 60px;
+  font-weight: bold;
+  color: #009642;
+}
+.login-inner button{
+  margin-top: 10px;
+  background-color: #009642;
+  font-weight: bold;
+}
+.content{
+  margin-left: 120px;
+}

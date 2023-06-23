@@ -1,0 +1,80 @@
+.classheader{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: 4px solid black;
+}
+.classheader .header-title{
+    list-style: none;
+    width: 500px;
+}
+
+.classheader .header-title li p{
+    position: absolute;
+    left: 90px;
+    font-weight: bold;
+}
+.classheader .header-title li h4{
+    margin-top: 15px;
+    color: #00933F;
+    font-weight: bold;
+}
+.classheader .classheader-search{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 25px;
+}
+.classheader .classheader-search li input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+    padding-left: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.classheader .classheader-search li button{
+    width: 52px;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.classheader .classheader-search li button img{
+    width: 28px;
+    height: 28px;
+}
+.classcontent{
+    margin-top: 10%;
+    margin-left: 400px;
+}
+.classcontent ul{
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.classcontent ul:hover{
+    cursor: pointer;
+    background-color: #ffffffe2;
+}
+.classcontent ul li img{
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.classcontent ul li span{
+    margin-right: 40PX;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.header-tool img{
+    margin: auto;
+    width: 28px;
+    height: 28px;
+}
+.header-tool{
+    margin-top: 25px;
+}

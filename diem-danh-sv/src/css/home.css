@@ -1,0 +1,99 @@
+.homeheader{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: 4px solid black;
+}
+.homeheader .header-title{
+    list-style: none;
+    display: inline-flex;
+}
+.homeheader .header-title li{
+    margin-right: 10px;
+}
+.homeheader .header-title li h3{
+    margin-top: 25px;
+    color: #009642;
+    font-weight: bold;
+}
+.homeheader .header-title li img{
+    width: 90px;
+    height: 90px;
+}
+.homeheader .header-tool{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 30px;
+}
+.homeheader .header-tool li{
+    margin-right: 20px;
+    font-weight: bold;
+}
+.homeheader .header-tool li:hover{
+    cursor: pointer;
+}
+.homeheader .header-tool li img{
+    width: 28px;
+    height: 28px;
+}
+.homecontent{
+    margin-top: 20px;
+}
+.homecontent .homecontent-search{
+    list-style: none;
+    display: inline-flex;
+    margin-bottom: 40px;
+}
+.homecontent .homecontent-search li input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+    padding-left: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.homecontent .homecontent-search li button{
+    width: 52px;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.homecontent .homecontent-search li button img{
+    width: 28px;
+    height: 28px;
+}
+.homecontent .homecontent-class{
+    margin: 0 auto;
+    width: 620px;
+    height: 80px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.homecontent .homecontent-class ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homecontent .homecontent-class .link li{
+    width: 100px;
+    height: 12px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.homecontent .homecontent-class .deleteclass img{
+    margin-top: 23px;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+.homecontent .homecontent-class ul li h5{
+    width: 390px;
+    margin-top: 10px;
+}
+.homecontent .homecontent-class ul li span{
+    position: fixed;
+
+}
